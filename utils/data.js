@@ -17,17 +17,17 @@ const thoughtsData = [
   {
     thoughtText:
       "We cannot solve problems with the kind of thinking we employed when we came up with them",
-    username: "sam123",
+    username: "samy123",
   },
   {
     thoughtText:
       "Learn as if you will live forever, live like you will die tomorrow.",
-    username: "katy",
+    username: "katie",
   },
   {
     thoughtText:
       "When you change your thoughts, remember to also change your world.",
-    username: "rob2020",
+    username: "peter2023",
   },
 ];
 
