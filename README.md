@@ -34,7 +34,10 @@ The following screenshots demonstrate the application functionality:
 ## Walkthrough Video
 
 The walkthrough video showing the data output in Insomnia is given below:
-[walkthrough video]()
+[walkthrough video](https://drive.google.com/file/d/1vg7Hw7p_G1ezSy_tRPU1vBKGP3TrGM7-/view?usp=sharing)
+
+The demonstration to show the functionality where all associated thoughts are deleted when user is deleted is given below:
+[bonus](https://drive.google.com/file/d/1M-_bdgFTRWVhmQ_BXnSlQE7MZ-HMcsyA/view?usp=sharing)
 
 ## Technologies used
 
