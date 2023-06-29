@@ -15,16 +15,18 @@ const userData = [
 
 const thoughtsData = [
   {
-    thoughtText: "Peter piper picked a peck of pickled peppers",
+    thoughtText:
+      "We cannot solve problems with the kind of thinking we employed when we came up with them",
     username: "sam123",
   },
   {
-    thoughtText: "She sells seashells by the sea shore",
+    thoughtText:
+      "Learn as if you will live forever, live like you will die tomorrow.",
     username: "katy",
   },
   {
     thoughtText:
-      "How much wood would a woodchuck chuck if a woodchuck could chuck wood",
+      "When you change your thoughts, remember to also change your world.",
     username: "rob2020",
   },
 ];

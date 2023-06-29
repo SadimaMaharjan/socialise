@@ -5,7 +5,7 @@ module.exports = {
 
   async getUsers(req, res) {
     try {
-      const users = await Users.find();
+      const users = await User.find();
       res.json(users);
     } catch (err) {
       console.log(err);
@@ -48,6 +48,9 @@ module.exports = {
       if (!user) {
         return res.status(404).json({ message: "No user with that ID exists" });
       }
+
+      //delete associated thoughts when user gets deleted
+      await Thought.deleteMany({ _id: { $in: user.thoughts } });
 
       res.json({ message: "User deleted" });
     } catch (err) {
@@ -106,8 +109,7 @@ module.exports = {
         {
           _id: req.params.userId,
         },
-        { $pull: { friends: { friendId: req.params.friendId } } },
-        { runValidators: true, new: true }
+        { $pull: { friends: req.params.friendId } }
       );
       if (!user) {
         return res
